@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDN</title>
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content="Óscar Cáceres Prieto">
+
+    <style>
+    body{
+        text-align: center;
+    }
+    .mdn{
+        width: 25%;
+        height: 25%;
+    }
+    .menu{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 3vw;
+        height: 3vh;
+
+    }
+    table, td, th{
+        border: 1px solid black;
+        
+    }
+    .gatito{
+        width: 50px;
+        height: 50px;
+    }
+    .inicio{
+        border: 1px solid 10px;
+        background-color: red;
+        position: absolute;
+        height: 50px; 
+        width: 100%;
+        bottom: 10px;
+        color: white;
+    }
+    </style>
+  
+</head>
+<body>
+    <div>
+    <a href="https://developer.mozilla.org/es/" target="_blank">
+        <img class="mdn" src="IMG/mdn.jpg" alt="Mdn" >  
+    </a>
+
+   <img class="menu" src="IMG/bars-solid.svg">
+
+   <table>
+        <tr> 
+            <th colspan="4">hola </th>
+        </tr>
+        <tr>
+            <th rowspan="2">hola </th>
+            <th><img class="gatito" src="IMG/gatito.jpg" alt="gatito"> </th>
+            <th>hola </th>
+            <th> <a href="https://developer.mozilla.org/es/"> Enlace a MDN</a> </th>
+            
+        </tr>
+        <tr> 
+            <th >hola </th>
+            <th colspan="2">hola </th>
+            
+        </tr>
+    </table>
+    </div>
+    <div class="inicio">
+        <hr> <p> Inicio </p>
+    </div>
+
+
+   
+</body>
+</html>
